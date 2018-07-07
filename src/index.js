@@ -9,6 +9,7 @@ import {loadCourses} from './actions/courseActions';
 import 'babel-polyfill';
 import './styles/styles.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/toastr/build/toastr.min.css';
 
 // Can pass InitialState from the server to override custom initial state on reducers.
 const store = configureStore();
