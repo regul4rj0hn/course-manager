@@ -12,8 +12,8 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 // Can pass InitialState from the server to override custom initial state on reducers.
 const store = configureStore();
-store.dispatch(loadAuthors());
 store.dispatch(loadCourses());
+store.dispatch(loadAuthors());
 
 render(
   <Provider store={store}>
