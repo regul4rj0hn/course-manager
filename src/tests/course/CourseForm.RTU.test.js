@@ -1,7 +1,7 @@
 import expect from 'expect';
 import React from 'react';
 import TestUtils from 'react-addons-test-utils';
-import CourseForm from '../components/course/CourseForm';
+import CourseForm from '../../components/course/CourseForm';
 
 // These tests are using react-test-utils, which requires some setup.
 // Please see the Enzyme test for a nicer way to unit test components.

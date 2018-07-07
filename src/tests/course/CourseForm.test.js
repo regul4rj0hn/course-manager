@@ -1,7 +1,7 @@
 import expect from 'expect';
 import React from 'react';
 import {mount, shallow} from 'enzyme';
-import CourseForm from '../components/course/CourseForm';
+import CourseForm from '../../components/course/CourseForm';
 
 // Enzyme is an Airbnb library for tests in react.
 
