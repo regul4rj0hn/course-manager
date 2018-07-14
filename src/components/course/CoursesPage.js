@@ -4,7 +4,7 @@ import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import * as courseActions from '../../actions/courseActions';
 import CourseList from './CourseList';
-import ManageCoursePage from './ManageCoursePage';
+import ManageCoursePage from './ManageCoursePage'; //eslint-disable-line import/no-named-as-default
 
 class CoursesPage extends React.Component {
   constructor(props, context) {
